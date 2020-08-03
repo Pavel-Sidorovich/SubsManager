@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="spacing_normal_16">16dp</dimen>
+    <dimen name="spacing_small_8">8dp</dimen>
+    <dimen name="spacing_tiny_4">4dp</dimen>
+
+    <dimen name="corner_radius_16">16dp</dimen>
+    <dimen name="width_bar">100dp</dimen>
+    <dimen name="height_bottom_sheet">300dp</dimen>
+    <dimen name="height_color_view">80dp</dimen>
+    <dimen name="image_size">50dp</dimen>
+    <dimen name="days_left_size">80dp</dimen>
+</resources>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/spacing_small_8"
+        app:cardCornerRadius="@dimen/corner_radius_16">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/details_card_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:overScrollMode="always"
+            android:scrollbarStyle="insideInset"
+            android:scrollbars="vertical"
+            tools:context=".ui.fragments.AddFragment">
+
+            <ImageView
+                android:id="@+id/details_close"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_margin="@dimen/spacing_small_8"
+                android:background="@drawable/background_circle"
+                android:contentDescription="@string/close_card"
+                android:src="@drawable/ic_close_24"
+                app:layout_constraintBottom_toTopOf="@+id/details_chart"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/details_title"
+                style="@style/TextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font19718"
+                app:layout_constraintBottom_toTopOf="@+id/details_price"
+                app:layout_constraintEnd_toStartOf="@id/details_chart"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/details_price"
+                style="@style/TextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font19718"
+                app:layout_constraintBottom_toTopOf="@id/details_end"
+                app:layout_constraintEnd_toStartOf="@id/details_chart"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/details_title" />
+
+            <TextView
+                android:id="@+id/details_end"
+                style="@style/TextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font19718"
+                app:layout_constraintBottom_toTopOf="@id/details_delete"
+                app:layout_constraintEnd_toStartOf="@id/details_chart"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/details_price" />
+
+            <ImageView
+                android:id="@+id/details_delete"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_delete_24"
+                android:layout_margin="@dimen/spacing_normal_16"
+                android:padding="@dimen/spacing_small_8"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/details_chart"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/details_chart"
+                android:layout_width="@dimen/width_bar"
+                android:layout_height="0dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/details_close" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</ScrollView>

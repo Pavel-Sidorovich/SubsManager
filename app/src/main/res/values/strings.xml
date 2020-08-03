@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">SubsManager</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="price">price in $</string>
+    <string name="title">title</string>
+    <string name="tap_to_select">Tap to select</string>
+    <string name="tap_to_set_color">Tap to set color</string>
+    <string name="apply">apply</string>
+    <string name="end_date">End date</string>
+    <string name="start_date">Start date:</string>
+    <string name="details">Details Subscription</string>
+    <string name="add">Add Subscription</string>
+    <string name="check">Check the data</string>
+    <string name="error">Error</string>
+    <string name="warning">Warning</string>
+    <string name="summary">Summary</string>
+    <string name="end">End:</string>
+    <string name="start">Start:</string>
+    <string name="price_hint">Price:</string>
+    <string name="close_card">close card</string>
+</resources>

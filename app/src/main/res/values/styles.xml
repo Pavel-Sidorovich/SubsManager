@@ -1,0 +1,37 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Profile">
+    </style>
+
+    <style name="InputLayout" parent="Profile">
+        <item name="android:textColor">?attr/colorPrimary</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+    <style name="TextView" parent="InputLayout">
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Single" parent="InputLayout">
+        <item name="android:singleLine">true</item>
+        <item name="counterEnabled">true</item>
+        <item name="counterMaxLength">20</item>
+        <item name="errorEnabled">true</item>
+    </style>
+
+    <style name="MyCardViewStyle" parent="Theme.AppCompat.Light">
+        <item name="cardCornerRadius">200dp</item>
+        <item name="cardElevation">10dp</item>
+        <item name="cardBackgroundColor">@color/yellow</item>
+    </style>
+
+</resources>

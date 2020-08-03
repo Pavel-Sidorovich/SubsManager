@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1B1BB3</color>
+    <color name="colorPrimaryDark">#090974</color>
+    <color name="colorAccent">#A600A6</color>
+    <color name="color_background_circle">#DEDEDE</color>
+    
+    <color name="sky_blue">#87ceeb</color>
+    <color name="blue_violet">#8a2be2</color>
+    <color name="pale_green">#98fb98</color>
+    <color name="green_yellow">#adff2f</color>
+    <color name="lime_green">#32CD32</color>
+    <color name="green">#008000</color>
+    <color name="orchid">#da70d6</color>
+    <color name="peru">#cd853f</color>
+    <color name="orange">#ffa500</color>
+    <color name="yellow">#ffff00</color>
+    <color name="white">#ffffff</color>
+    <color name="blue">#0000ff</color>
+    <color name="aqua">#00FFFF</color>
+    <color name="wheat">#F5DEB3</color>
+
+</resources>
